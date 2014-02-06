@@ -1,0 +1,15 @@
+name: Portal
+main: com.enjin.druxuscraft.portals.Portals
+version: 0.0.1
+
+commands:
+   newportal:
+      description: Creates new portal with specified coordinates and name
+      usage: /<command> [portal name] [portal command]
+      permission: <plugin name>.newportal
+      permission-message: You don't have permission to execute this command
+   delportal:
+         description: Deletes the portal with the specified name.
+         usage: /<command> [portal name]
+         permission: <plugin name>.delportal
+         permission-message: You don't have permission to execute this command
